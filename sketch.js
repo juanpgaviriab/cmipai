@@ -12,8 +12,8 @@ let rad = dim/2;
 let onG = false;
 
 let logo;
-let lw = 400;
-let lh = 400;
+let lw = 1080;
+let lh = 1080;
 let indexButton;
 let proyectosButton;
 let menuBotones = [];
@@ -141,7 +141,7 @@ function draw() {
   graficosOn();
 
   //logo central
-  image(logo, centroX/2 - lw/2,centroY/2 - lh/2,lw,lh);
+  image(logo, centroX/2 - lw/4,centroY/2 - lh/4,lw/2,lh/2);
 
 }
 
