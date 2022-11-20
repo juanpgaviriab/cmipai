@@ -44,7 +44,7 @@ function preload() {
   font_regular = loadFont('fonts/IBMPlexMono-Regular.otf');
   font_italic = loadFont('fonts/IBMPlexMono-Italic.otf');
   font_bold = loadFont('fonts/IBMPlexMono-Bold.otf');
-  logo = loadImage('imagenes/logo.gif');
+  logo = loadImage('imagenes/logo_blanco.gif');
   data = loadJSON('contenido/contenido.json');
 }
 
