@@ -102,7 +102,7 @@ Botones.prototype.intOn = function(){
     this.escapeContenidos(mouseX,mouseY);
     //TITULO
     textAlign(LEFT,TOP);
-    textSize(100);
+    textSize(80);
     textFont(font_bold);
     fill(255);
     this.textTituloX = windowWidth/2 + 50;
@@ -120,7 +120,7 @@ Botones.prototype.intOn = function(){
 
     //SUBTITULO
     textFont(font_italic);
-    textSize(30);
+    textSize(24);
     this.textSubtituloX = windowWidth/2 + 50;
     this.textSubtituloY = this.refSubtitulo + (this.lineaDtitulo/3);
     this.lineaDsubtitulo = textAscent();
@@ -136,7 +136,7 @@ Botones.prototype.intOn = function(){
 
     //CUERPO
     textFont(font_regular);
-    textSize(27);
+    textSize(18);
     this.textCuerpoX = windowWidth/2 + 50;
     this.textCuerpoY = this.refCuerpo + (this.lineaDsubtitulo*4);
     this.lineaDcuerpo = textAscent();
